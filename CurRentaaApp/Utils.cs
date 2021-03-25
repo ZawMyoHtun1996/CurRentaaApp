@@ -12,7 +12,7 @@ namespace CurRentaaApp
     {
         public static bool FormIsOpen(string name)
         {
-            //check is window is already open
+            //check is windows is already open
             var OpenForms = Application.OpenForms.Cast<Form>();
             var isOpen = OpenForms.Any(q => q.Name == name);
             return isOpen;
